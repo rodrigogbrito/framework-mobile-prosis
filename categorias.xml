@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DadosGov>
+	<Categoria>
+		<Nome>Governo e Política</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>SICONV - Convênios e Contratos de Repasse da Administração Pública Federal</Nome>
+				<Descricao>A prestação de dados como um serviço governamental traz vantagens pra toda a sociedade, incluindo o próprio governo. O Ministério do Planejamento, Orçamento e Gestão está economizando recursos através da publicação dessas informações na Internet. A disponibilização dos dados do SICONV é um compromisso firmado pelo governo brasileiro na Parceria para Governo Aberto (Open Government Partnership - OGP do inglês). O governo está comprometido em promover a transparência dos gastos públicos, fornecer informações de valor agregado à sociedade e promover a pesquisa e inovação tecnológica através da implementação das políticas brasileira de dados abertos. Essa API está sendo desenvolvida como parte da Infraestrutura Nacional de Dados Abertos - INDA.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Convênios do SICONV</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/siconv.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>0,28MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Comunidades Terapêuticas</Nome>
+				<Descricao>Comunidades terapêuticas são entidades privadas, sem fins lucrativos, que realizam acolhimento de pessoas com transtornos decorrentes do uso, abuso ou dependência de substâncias psicoativas.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Comunidades Terapêuticas</Nome>						
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/comunidades_terapeuticas.xml</Url>
+						<Tipo>Georreferenciamento</Tipo>
+						<Tamanho>0,47MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Praças PAC em GML</Nome>
+				<Descricao/>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Praças do PAC</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/pracas_pac_cfg.xml</Url>
+						<Tipo>Georreferenciamento</Tipo>
+						<Tamanho>0,42MB</Tamanho>
+						<Formato>XML</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Recolhimento via empresas por classe de atividade</Nome>
+				<Descricao>Valores dos recolhimentos de empresas e entidades equiparadas por classe de atividade econômica, UF de localização do estabelecimento e ano de processamento da guia. Considera os recolhimentos efetuados na Guia da Previdência Social (GPS), incluindo o valor dos recolhimentos para outras entidades, e guias sem erro de fechamento.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>recolhimento-via-empresas-por-classe-de-atividade</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/recolhimento_empresas.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>0,19MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+	<Categoria>
+		<Nome>Meio Ambiente</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Base Cartográfica Contínua do Brasil – 1:250000 BC250 Extrativismo Mineral (Ponto)</Nome>
+				<Descricao>A Base Cartográfica Contínua do Brasil na escala 1:250000 (BC250) é um conjunto de dados geoespaciais de referência, estruturadosem bases de dados digitais, permitindo uma visão integrada do território nacional nesta escala. Foi gerada a partir da integraçãodas folhas do mapeamento sistemático brasileiro, na escala de 1:250000, incluindo os dados oriundos do projeto SIVAM. Estemapeamento foi atualizado e complementado em regiões de vazio cartográfico e naquelas previamente definidas pela defasagemde informações. O IBGE desenvolveu a produção dessa base de abrangência nacional, através do projeto SIGBRASIL com a contrataçãode empresas especializadas na área de cartografia. A BC250, encontra-se estruturada em 7 (sete) categorias de informação:Hidrografia, Localidades, Limites, Sistema de Transportes, Estrutura Econômica, Energia e Comunicações, Abastecimento deÁgua e Saneamento Básico, conforme a Especificação Técnica para a Estruturação de Dados Geoespaciais Vetoriais (ET-EDGV).Cada categoria está divida em classes de elementos, correspondentes aos elementos geográficos que representam o territórionacional nessa escala. Cada classe de elementos possui atributos geométricos e semânticos associados a banco de dados permitindoconsultas espaciais e semânticas. A BC250 compõe a Infraestrutura Nacional de Dados Geoespaciais do Brasil (INDE) e representaa escala de maior detalhamento com a cobertura de todo o território nacional.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Extrativismo Mineral</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/Extrativismo_Mineral.xml</Url>
+						<Tipo>Georreferenciamento</Tipo>
+						<Tamanho>1,40MB</Tamanho>
+						<Formato>JSON</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+	<Categoria>
+		<Nome>Pessoa, Família e Sociedade</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Aposentadorias concedidas por anos de serviço</Nome>
+				<Descricao>Benefícios concedidos por anos de serviço do beneficiário, grupos de espécie específicos, sexo do beneficiário, clientela e ano da Data de Despacho do Benefício (DDB). Não inclui pensões alimentícias, desdobramentos de pensões por morte nem benefícios de prestação única. Considera apenas espécies de 'aposentadorias por tempo de contribuição</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Aposentadorias concedidas por anos de serviço</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/aposentadorias.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>0,27MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Base Cartográfica Contínua do Brasil – 1:250000 BC250 Terra Indígena (Ponto)</Nome>
+				<Descricao>A Base Cartográfica Contínua do Brasil na escala 1:250000 (BC250) é um conjunto de dados geoespaciais de referência, estruturados em bases de dados digitais, permitindo uma visão integrada do território nacional nesta escala. Foi gerada a partir da integraçãodas folhas do mapeamento sistemático brasileiro, na escala de 1:250000, incluindo os dados oriundos do projeto SIVAM. Estemapeamento foi atualizado e complementado em regiões de vazio cartográfico e naquelas previamente definidas pela defasagemde informações. O IBGE desenvolveu a produção dessa base de abrangência nacional, através do projeto SIGBRASIL com a contrataçãode empresas especializadas na área de cartografia. A BC250, encontra-se estruturada em 7 (sete) categorias de informação:Hidrografia, Localidades, Limites, Sistema de Transportes, Estrutura Econômica, Energia e Comunicações, Abastecimento deÁgua e Saneamento Básico, conforme a Especificação Técnica para a Estruturação de Dados Geoespaciais Vetoriais (ET-EDGV).Cada categoria está divida em classes de elementos, correspondentes aos elementos geográficos que representam o territórionacional nessa escala. Cada classe de elementos possui atributos geométricos e semânticos associados a banco de dados permitindoconsultas espaciais e semânticas. A BC250 compõe a Infraestrutura Nacional de Dados Geoespaciais do Brasil (INDE) e representaa escala de maior detalhamento com a cobertura de todo o território nacional.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>BC250 Terra Indígena (Ponto)</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/terras_indigenas.xml</Url>
+						<Tipo>Georreferenciamento</Tipo>
+						<Tamanho>0,15MB</Tamanho>
+						<Formato>JSON</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+	<Categoria>
+		<Nome>Economia e Finanças</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Unidades de Atendimento da Receita Federal</Nome>
+				<Descricao/>
+				<ListaRecursos>
+					<Recurso>
+					<Nome>Unidades de Atendimento da Receita Federal</Nome>
+					<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/unidades_receita_federal.xml</Url>
+					<Tipo>Tabela</Tipo>
+					<Tamanho>0,03MB</Tamanho>
+					<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+	<Categoria>
+		<Nome>Defesa e Segurança</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Postos Campanha do Desarmamento</Nome>
+				<Descricao>Legenda da coluna “Órgão”: PC = Polícia Civil PM = Policia Militar PF = Polícia Federal PRF = Polícia Rodoviária Federal SC = Sociedade Civil GM = Guarda Municipal CB = Corpo de Bombeiro Militar.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Postos Campanha do Desarmamento</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/postos_desarmamento.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>0,19MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+	<Categoria>
+		<Nome>Transportes e trânsito</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Transporte Marítimo</Nome>
+				<Descricao>Transporte Marítimo. Empreendimento pertencente a carteira do Anexo III do PPA 2012-2015. Programa 2073. Iniciativas 00IK,00JT, 00IJ, 00LR, 00JV, 048C, 00JU, 00JS e 00JK - escala 1:1.000.000. Sistema de referência: SIRGAS2000.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>2074 - Transporte Marítimo - Portos</Nome>
+						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/portos.xml</Url>
+						<Tipo>Georreferenciamento</Tipo>
+						<Tamanho>0,03MB</Tamanho>
+						<Formato>JSON</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+</DadosGov>

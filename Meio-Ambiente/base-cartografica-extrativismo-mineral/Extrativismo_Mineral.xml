@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://geoservicos.ibge.gov.br/geoserver/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=CCAR:BC250_Ext_Mineral_P&amp;outputFormat=JSON</Url>
+   <CamposObrigatorios>
+      <Geometry>geometry</Geometry>
+      <Properties>properties</Properties>
+      <Titulo>nome</Titulo>
+   </CamposObrigatorios>
+   <PosicaoLatitude>1</PosicaoLatitude>
+   <PosicaoLongitude>0</PosicaoLongitude>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>nome</Original>
+         <Mapeamento>Nome</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>tipoprodutoresiduo</Original>
+         <Mapeamento>Produto Resíduo</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro>
+      <Filtro value="tipoprodutoresiduo">
+         <ItemFiltro>Areia</ItemFiltro>
+         <ItemFiltro>Ouro</ItemFiltro>
+         <ItemFiltro>Argila</ItemFiltro>
+      </Filtro>
+   </ListaFiltro>
+</ConfiguracaoBase>

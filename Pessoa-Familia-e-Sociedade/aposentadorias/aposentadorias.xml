@@ -1,0 +1,34 @@
+<ConfiguracaoBase>
+	<Url>http://dadosabertos.dataprev.gov.br/opendata/con06/formato=csv</Url>
+	<Encoding>windows-1252</Encoding>
+	<CamposObrigatorios>
+		<Titulo>Espécie</Titulo>
+		<SubTitulo>Sexo</SubTitulo>
+	</CamposObrigatorios>
+	<ListaMetadados>
+		<MapeamentoMetadado>
+			<Original>Espécie</Original>
+			<Mapeamento>Espécie</Mapeamento>
+		</MapeamentoMetadado>
+		<MapeamentoMetadado>
+			<Original>Sexo</Original>
+			<Mapeamento>Sexo</Mapeamento>
+		</MapeamentoMetadado>
+		<MapeamentoMetadado>
+			<Original>Ano</Original>
+			<Mapeamento>Ano</Mapeamento>
+		</MapeamentoMetadado>
+		<MapeamentoMetadado>
+			<Original>Anos de Serviço do Segurado</Original>
+			<Mapeamento>Anos de Serviço do Segurado</Mapeamento>
+		</MapeamentoMetadado>
+	</ListaMetadados>
+	<ListaFiltro>
+		<Filtro value="Ano">
+			<ItemFiltro>1996</ItemFiltro>
+			<ItemFiltro>1998</ItemFiltro>
+			<ItemFiltro>1999</ItemFiltro>
+			<ItemFiltro>2000</ItemFiltro>
+		</Filtro>
+	</ListaFiltro>
+ </ConfiguracaoBase>

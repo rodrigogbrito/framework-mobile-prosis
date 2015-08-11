@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://repositorio.dados.gov.br/justica-legislacao/justica/BASE_DE_DADOS_COMUNIDADES_TERAPEUTICAS.csv</Url>
+   <CamposObrigatorios>
+      <Latitude>Latitude</Latitude>
+      <Longitude>Longitude</Longitude>
+      <Titulo>Nome da instituição/unidade</Titulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>Nome da instituição/unidade</Original>
+         <Mapeamento>Nome</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Telefone 1</Original>
+         <Mapeamento>Telefone</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Público atendido pela instituição</Original>
+         <Mapeamento>Público Atendido</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Modalidade de internação</Original>
+         <Mapeamento>Modalidade de internação</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro>
+      <Filtro value="Modalidade de internação">
+         <ItemFiltro>Voluntária</ItemFiltro>
+         <ItemFiltro>Involutária</ItemFiltro>
+      </Filtro>
+   </ListaFiltro>
+</ConfiguracaoBase>

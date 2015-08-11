@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://repositorio.dados.gov.br/economia-financas/financas/financas-publicas/tributo/Unidades%20de%20Atendimento%20da%20Receita%20Federal.csv</Url>
+   <CamposObrigatorios>
+      <Titulo>Unidade</Titulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>Unidade</Original>
+         <Mapeamento>Unidade</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>CEP</Original>
+         <Mapeamento>CEP</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Bairro</Original>
+         <Mapeamento>Bairro</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Cidade</Original>
+         <Mapeamento>Cidade</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Estado</Original>
+         <Mapeamento>Estado</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro>
+      <Filtro value="Estado">
+         <ItemFiltro>RJ</ItemFiltro>
+         <ItemFiltro>SP</ItemFiltro>
+         <ItemFiltro>MG</ItemFiltro>
+      </Filtro>
+   </ListaFiltro>
+</ConfiguracaoBase>

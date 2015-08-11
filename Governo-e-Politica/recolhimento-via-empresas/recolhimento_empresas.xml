@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://dadosabertos.dataprev.gov.br/opendata/ARR11/formato=csv</Url>
+   <Encoding>windows-1252</Encoding>
+   <CamposObrigatorios>
+      <Titulo>Classe At. Econômica</Titulo>
+      <SubTitulo>Unidade da Federação</SubTitulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>Classe At. Econômica</Original>
+         <Mapeamento>Classe Atividade Econômica</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Unidade da Federação</Original>
+         <Mapeamento>Unidade da Federação</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Ano</Original>
+         <Mapeamento>Ano</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Valor Contribuição Efet (R$)</Original>
+         <Mapeamento>Valor Contribuição Efetivo (R$)</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro>
+      <Filtro value="Ano">
+         <ItemFiltro>2000</ItemFiltro>
+         <ItemFiltro>2001</ItemFiltro>
+         <ItemFiltro>2002</ItemFiltro>
+      </Filtro>
+   </ListaFiltro>
+</ConfiguracaoBase>

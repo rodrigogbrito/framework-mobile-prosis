@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://geoservicos.ibge.gov.br/geoserver/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=CCAR:BC250_Terra_Indigena_P&amp;outputFormat=JSON</Url>
+   <CamposObrigatorios>
+      <Geometry>geometry</Geometry>
+      <Properties>properties</Properties>
+      <Titulo>nome</Titulo>
+   </CamposObrigatorios>
+   <PosicaoLatitude>1</PosicaoLatitude>
+   <PosicaoLongitude>0</PosicaoLongitude>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>nome</Original>
+         <Mapeamento>Nome tribo</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>grupoetnico</Original>
+         <Mapeamento>Grupo étnico</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>datasituacaojuridica</Original>
+         <Mapeamento>Data Situação Jurídica</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro />
+</ConfiguracaoBase>

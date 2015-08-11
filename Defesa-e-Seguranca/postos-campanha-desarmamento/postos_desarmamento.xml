@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://repositorio.dados.gov.br/defesa-seguranca/seguranca-publica/porte_arma/Postos%20Desarmamento.csv</Url>
+   <CamposObrigatorios>
+      <Titulo>Posto</Titulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>Posto</Original>
+         <Mapeamento>Posto</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Órgão</Original>
+         <Mapeamento>Órgão</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Logradouro</Original>
+         <Mapeamento>Logradouro</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Bairro</Original>
+         <Mapeamento>Bairro</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Cidade</Original>
+         <Mapeamento>Cidade</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>UF</Original>
+         <Mapeamento>Estado</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro>
+      <Filtro value="UF">
+         <ItemFiltro>RJ</ItemFiltro>
+         <ItemFiltro>SP</ItemFiltro>
+         <ItemFiltro>MG</ItemFiltro>
+      </Filtro>
+   </ListaFiltro>
+</ConfiguracaoBase>

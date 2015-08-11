@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://www.geoservicos.inde.gov.br/geoserver/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=MPOG:Pracas_PAC&amp;outputFormat=gml32</Url>
+   <CamposObrigatorios>
+      <Geometry>geometry</Geometry>
+      <Properties>properties</Properties>
+      <Titulo>MUNICIPIO</Titulo>
+   </CamposObrigatorios>
+   <PosicaoLatitude>1</PosicaoLatitude>
+   <PosicaoLongitude>0</PosicaoLongitude>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>GRUPO</Original>
+         <Mapeamento>Grupo</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>GRUPO</Original>
+         <Mapeamento>Grupo</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>MUNICIPIO</Original>
+         <Mapeamento>Município</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>AREA_INTER</Original>
+         <Mapeamento>Endereço</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>valor_obra</Original>
+         <Mapeamento>Valor Obra</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>Seleção</Original>
+         <Mapeamento>Seleção</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>UF</Original>
+         <Mapeamento>UF</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   
+</ConfiguracaoBase>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://api.convenios.gov.br/siconv/v1/consulta/convenios.csv</Url>
+   <CamposObrigatorios>
+      <Titulo>objeto_resumido</Titulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>objeto_resumido</Original>
+         <Mapeamento>Objeto</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>justificativa_resumida</Original>
+         <Mapeamento>Justificativa</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>modalidade</Original>
+         <Mapeamento>Modalidade</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>data_assinatura</Original>
+         <Mapeamento>Data Assinatura</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro>
+      <Filtro value="Modalidade">
+         <ItemFiltro>CONTRATO DE REPASSE</ItemFiltro>
+         <ItemFiltro>CONVENIO</ItemFiltro>
+      </Filtro>
+   </ListaFiltro>
+</ConfiguracaoBase>

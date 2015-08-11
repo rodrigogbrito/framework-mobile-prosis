@@ -9,7 +9,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Convênios do SICONV</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/siconv.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/siconv/siconv.xml</Url>
 						<Tipo>Tabela</Tipo>
 						<Tamanho>0,28MB</Tamanho>
 						<Formato>CSV</Formato>
@@ -22,7 +22,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Comunidades Terapêuticas</Nome>						
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/comunidades_terapeuticas.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/comunidades-terapeuticas/comunidades_terapeuticas.xml</Url>
 						<Tipo>Georreferenciamento</Tipo>
 						<Tamanho>0,47MB</Tamanho>
 						<Formato>CSV</Formato>
@@ -35,7 +35,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Praças do PAC</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/pracas_pac_cfg.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/pracas-do-pac/pracas_pac_cfg.xml</Url>
 						<Tipo>Georreferenciamento</Tipo>
 						<Tamanho>0,42MB</Tamanho>
 						<Formato>XML</Formato>
@@ -47,8 +47,8 @@
 				<Descricao>Valores dos recolhimentos de empresas e entidades equiparadas por classe de atividade econômica, UF de localização do estabelecimento e ano de processamento da guia. Considera os recolhimentos efetuados na Guia da Previdência Social (GPS), incluindo o valor dos recolhimentos para outras entidades, e guias sem erro de fechamento.</Descricao>
 				<ListaRecursos>
 					<Recurso>
-						<Nome>recolhimento-via-empresas-por-classe-de-atividade</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/recolhimento_empresas.xml</Url>
+						<Nome>Recolhimento via empresas por classe de atividade</Nome>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/recolhimento-via-empresas/recolhimento_empresas.xml</Url>
 						<Tipo>Tabela</Tipo>
 						<Tamanho>0,19MB</Tamanho>
 						<Formato>CSV</Formato>
@@ -66,7 +66,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Extrativismo Mineral</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/Extrativismo_Mineral.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Meio-Ambiente/base-cartografica-extrativismo-mineral/Extrativismo_Mineral.xml</Url>
 						<Tipo>Georreferenciamento</Tipo>
 						<Tamanho>1,40MB</Tamanho>
 						<Formato>JSON</Formato>
@@ -84,7 +84,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Aposentadorias concedidas por anos de serviço</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/aposentadorias.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Pessoa-Familia-e-Sociedade/aposentadorias/aposentadorias.xml</Url>
 						<Tipo>Tabela</Tipo>
 						<Tamanho>0,27MB</Tamanho>
 						<Formato>CSV</Formato>
@@ -97,7 +97,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>BC250 Terra Indígena (Ponto)</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/terras_indigenas.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Pessoa-Familia-e-Sociedade/base-cartografica-terra-indigena/terras_indigenas.xml</Url>
 						<Tipo>Georreferenciamento</Tipo>
 						<Tamanho>0,15MB</Tamanho>
 						<Formato>JSON</Formato>
@@ -115,7 +115,7 @@
 				<ListaRecursos>
 					<Recurso>
 					<Nome>Unidades de Atendimento da Receita Federal</Nome>
-					<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/unidades_receita_federal.xml</Url>
+					<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Economia-e-Financas/unidades-de-atendimento-receita-federal/unidades_receita_federal.xml</Url>
 					<Tipo>Tabela</Tipo>
 					<Tamanho>0,03MB</Tamanho>
 					<Formato>CSV</Formato>
@@ -133,7 +133,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Postos Campanha do Desarmamento</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/postos_desarmamento.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Defesa-e-Seguranca/postos-campanha-desarmamento/postos_desarmamento.xml</Url>
 						<Tipo>Tabela</Tipo>
 						<Tamanho>0,19MB</Tamanho>
 						<Formato>CSV</Formato>
@@ -151,7 +151,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>2074 - Transporte Marítimo - Portos</Nome>
-						<Url>http://capgov.cos.ufrj.br/GovApps/arquivos/portos.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Transportes-e-Transito/transporte-maritimo/portos.xml</Url>
 						<Tipo>Georreferenciamento</Tipo>
 						<Tamanho>0,03MB</Tamanho>
 						<Formato>JSON</Formato>

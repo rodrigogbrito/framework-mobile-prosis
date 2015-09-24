@@ -5,6 +5,7 @@
       <Latitude>Latitude</Latitude>
       <Longitude>Longitude</Longitude>
       <Titulo>Nome da instituição/unidade</Titulo>
+	  <Separador>,</Separador>
    </CamposObrigatorios>
    <ListaMetadados>
       <MapeamentoMetadado>

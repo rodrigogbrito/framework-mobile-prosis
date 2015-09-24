@@ -1,6 +1,7 @@
 <ConfiguracaoBase>
 	<Url>http://dadosabertos.dataprev.gov.br/opendata/con06/formato=csv</Url>
 	<Encoding>windows-1252</Encoding>
+	<Separador>,</Separador>
 	<CamposObrigatorios>
 		<Titulo>Espécie</Titulo>
 		<SubTitulo>Sexo</SubTitulo>

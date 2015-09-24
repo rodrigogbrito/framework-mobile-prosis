@@ -9,7 +9,7 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Convênios do SICONV</Nome>
-						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/siconv/siconv.xml</Url>
+						<Url>https://cdn.rawgit.com/planejamentoGovBr/framework-mobile-prosis/708264121b87b88746f45a52327187c3e6270f57/Governo-e-Politica/siconv/siconv.xml</Url>
 						<Tipo>Tabela</Tipo>
 						<Tamanho>0,28MB</Tamanho>
 						<Formato>CSV</Formato>

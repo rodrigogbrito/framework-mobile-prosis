@@ -2,6 +2,7 @@
 <ConfiguracaoBase>
    <Url>http://dadosabertos.dataprev.gov.br/opendata/ARR11/formato=csv</Url>
    <Encoding>windows-1252</Encoding>
+   <Separador>,</Separador>
    <CamposObrigatorios>
       <Titulo>Classe At. Econômica</Titulo>
       <SubTitulo>Unidade da Federação</SubTitulo>

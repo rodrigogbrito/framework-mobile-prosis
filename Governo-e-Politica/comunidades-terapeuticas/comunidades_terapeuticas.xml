@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConfiguracaoBase>
    <Url>http://repositorio.dados.gov.br/justica-legislacao/justica/BASE_DE_DADOS_COMUNIDADES_TERAPEUTICAS.csv</Url>
+   <Separador>,</Separador>
    <CamposObrigatorios>
       <Latitude>Latitude</Latitude>
       <Longitude>Longitude</Longitude>

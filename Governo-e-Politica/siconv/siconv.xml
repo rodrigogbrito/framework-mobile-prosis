@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConfiguracaoBase>
    <Url>http://api.convenios.gov.br/siconv/v1/consulta/convenios.csv</Url>
+   <Separador>,</Separador>
    <CamposObrigatorios>
       <Titulo>objeto_resumido</Titulo>
    </CamposObrigatorios>

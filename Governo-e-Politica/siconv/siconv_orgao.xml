@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://api.convenios.gov.br/siconv/v1/consulta/orgaos.csv</Url>
+   <Separador>,</Separador>
+   <CamposObrigatorios>
+      <Titulo>nome</Titulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>nome</Original>
+         <Mapeamento>Órgão Concedente</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>cod_siasg</Original>
+         <Mapeamento>Código SIASG</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+</ConfiguracaoBase>

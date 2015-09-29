@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://api.convenios.gov.br/siconv/v1/consulta/propostas.csv</Url>
+   <Separador>,</Separador>
+   <CamposObrigatorios>
+      <Titulo>objeto_resumido</Titulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>objeto_resumido</Original>
+         <Mapeamento>Objeto da Proposta</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>justificativa_resumida</Original>
+         <Mapeamento>Justificativa</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>data_cadastramento_proposta</Original>
+         <Mapeamento>Data de Cadastramento</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>inicio_execucao</Original>
+         <Mapeamento>Início da Execução</Mapeamento>
+      </MapeamentoMetadado>
+	  <MapeamentoMetadado>
+         <Original>fim_execucao</Original>
+         <Mapeamento>Término da Execução</Mapeamento>
+      </MapeamentoMetadado>
+	  <MapeamentoMetadado>
+         <Original>valor_contra_partida</Original>
+         <Mapeamento>Valor de Contra Partida</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>valor_global</Original>
+         <Mapeamento>Valor Global</Mapeamento>
+      </MapeamentoMetadado>
+	  <MapeamentoMetadado>
+         <Original>valor_repasse</Original>
+         <Mapeamento>Valor de Repasse</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+</ConfiguracaoBase>

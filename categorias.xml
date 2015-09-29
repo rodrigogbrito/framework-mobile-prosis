@@ -9,9 +9,30 @@
 				<ListaRecursos>
 					<Recurso>
 						<Nome>Convênios do SICONV</Nome>
-						<Url>https://cdn.rawgit.com/planejamentoGovBr/framework-mobile-prosis/708264121b87b88746f45a52327187c3e6270f57/Governo-e-Politica/siconv/siconv.xml</Url>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/siconv/siconv.xml</Url>
 						<Tipo>Tabela</Tipo>
 						<Tamanho>0,28MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+					<Recurso>
+						<Nome>Órgãos Concedentes de Convênios</Nome>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/siconv/siconv_orgao.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>0,08MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+					<Recurso>
+						<Nome>Propostas do SICONV</Nome>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/siconv/siconv_proposta.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>0,24MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+					<Recurso>
+						<Nome>Responsáveis pelas Propostas ou Convênios</Nome>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Governo-e-Politica/siconv/siconv_pessoas_responsaveis.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>0,43MB</Tamanho>
 						<Formato>CSV</Formato>
 					</Recurso>
 				</ListaRecursos>

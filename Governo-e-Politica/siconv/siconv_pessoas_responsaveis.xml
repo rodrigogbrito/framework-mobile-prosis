@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoBase>
+   <Url>http://api.convenios.gov.br/siconv/v1/consulta/pessoas_responsaveis.csv</Url>
+   <Separador>,</Separador>
+   <CamposObrigatorios>
+      <Titulo>nome</Titulo>
+   </CamposObrigatorios>
+   <ListaMetadados>
+      <MapeamentoMetadado>
+         <Original>nome</Original>
+         <Mapeamento>Responsável</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+         <Original>cargo</Original>
+         <Mapeamento>Cargo</Mapeamento>
+      </MapeamentoMetadado>
+   </ListaMetadados>
+   <ListaFiltro>
+      <Filtro value="Cargo">
+		 <ItemFiltro>ASSESSOR</ItemFiltro>
+         <ItemFiltro>PRESIDENTE</ItemFiltro>
+         <ItemFiltro>PROFESSOR</ItemFiltro>
+		 <ItemFiltro>PREFEITO</ItemFiltro>
+         <ItemFiltro>SUBGERENTE</ItemFiltro>
+      </Filtro>
+   </ListaFiltro>
+</ConfiguracaoBase>

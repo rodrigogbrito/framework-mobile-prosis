@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ConfiguracaoBase>
-   <Url>http://i3geo.saude.gov.br/i3geo/ogc.php?service=WFS&version=1.0.0&request=GetFeature&typeName=farmacia_popular_brasil&outputFormat=CSV</Url>
+   <Url>http://i3geo.saude.gov.br/i3geo/ogc.php?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=farmacia_popular_brasil&amp;outputFormat=CSV</Url>
    <Separador>,</Separador>
    <CamposObrigatorios>
       <Latitude>lat</Latitude>
@@ -57,7 +57,6 @@
 		 <ItemFiltro>SE</ItemFiltro>
          <ItemFiltro>SP</ItemFiltro>
 		 <ItemFiltro>TO</ItemFiltro>
-         
       </Filtro>
 	  <Filtro value="cidade">
 		 <ItemFiltro>Alagoinhas</ItemFiltro>

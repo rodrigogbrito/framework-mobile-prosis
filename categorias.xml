@@ -164,7 +164,25 @@
 		</ListaConjuntoDados>
 	</Categoria>
 	<Categoria>
-		<Nome>Transportes e trânsito</Nome>
+		<Nome>Saúde</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Farmácia Popular do Brasil</Nome>
+				<Descricao>Localizações de estabelecimentos do Programa Farmácia Popular.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Farmácia Popular do Brasil</Nome>
+						<Url>https://rawgit.com/planejamentoGovBr/framework-mobile-prosis/master/Saude/farmacia-popular-brasil/farmacia-popular-brasil.xml</Url>
+						<Tipo>Georreferenciamento</Tipo>
+						<Tamanho>0,03MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+	<Categoria>
+		<Nome>Transportes e Trânsito</Nome>
 		<ListaConjuntoDados>
 			<ConjuntoDados>
 				<Nome>Transporte Marítimo</Nome>

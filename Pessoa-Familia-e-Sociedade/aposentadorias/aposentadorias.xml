@@ -4,7 +4,6 @@
 	<Separador>,</Separador>
 	<CamposObrigatorios>
 		<Titulo>Espécie</Titulo>
-		<SubTitulo>Sexo</SubTitulo>
 	</CamposObrigatorios>
 	<ListaMetadados>
 		<MapeamentoMetadado>

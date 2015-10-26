@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfiguracaoBase>
+<ConfiguracaoRecurso>
    <Url>http://api.convenios.gov.br/siconv/v1/consulta/convenios.csv</Url>
    <Separador>,</Separador>
    <CamposObrigatorios>
@@ -29,4 +29,4 @@
          <ItemFiltro>CONVENIO</ItemFiltro>
       </Filtro>
    </ListaFiltro>
-</ConfiguracaoBase>
+</ConfiguracaoRecurso>

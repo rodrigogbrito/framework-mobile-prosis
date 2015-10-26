@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfiguracaoBase>
+<ConfiguracaoRecurso>
    <Url>http://i3geo.saude.gov.br/i3geo/ogc.php?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=farmacia_popular_brasil&amp;outputFormat=CSV</Url>
    <Separador>,</Separador>
    <CamposObrigatorios>
@@ -60,4 +60,4 @@
       </Filtro>
 	  
    </ListaFiltro>
-</ConfiguracaoBase>
+</ConfiguracaoRecurso>

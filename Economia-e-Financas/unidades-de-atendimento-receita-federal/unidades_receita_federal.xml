@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfiguracaoBase>
+<ConfiguracaoRecurso>
    <Url>http://repositorio.dados.gov.br/economia-financas/financas/financas-publicas/tributo/Unidades%20de%20Atendimento%20da%20Receita%20Federal.csv</Url>
    <Separador>,</Separador>
    <CamposObrigatorios>
@@ -34,4 +34,4 @@
          <ItemFiltro>MG</ItemFiltro>
       </Filtro>
    </ListaFiltro>
-</ConfiguracaoBase>
+</ConfiguracaoRecurso>

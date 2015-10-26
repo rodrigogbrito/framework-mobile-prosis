@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfiguracaoBase>
+<ConfiguracaoRecurso>
    <Url>http://api.convenios.gov.br/siconv/v1/consulta/propostas.csv</Url>
    <Separador>,</Separador>
    <CamposObrigatorios>
@@ -39,4 +39,4 @@
          <Mapeamento>Valor de Repasse</Mapeamento>
       </MapeamentoMetadado>
    </ListaMetadados>
-</ConfiguracaoBase>
+</ConfiguracaoRecurso>

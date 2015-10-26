@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfiguracaoBase>
+<ConfiguracaoRecurso>
    <Url>http://repositorio.dados.gov.br/defesa-seguranca/seguranca-publica/porte_arma/Postos%20Desarmamento.csv</Url>
    <Separador>,</Separador>
    <CamposObrigatorios>
@@ -38,4 +38,4 @@
          <ItemFiltro>MG</ItemFiltro>
       </Filtro>
    </ListaFiltro>
-</ConfiguracaoBase>
+</ConfiguracaoRecurso>

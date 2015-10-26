@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfiguracaoBase>
+<ConfiguracaoRecurso>
    <Url>http://www.geoservicos.inde.gov.br/geoserver/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=MPOG:Pracas_PAC&amp;outputFormat=gml32</Url>
    <CamposObrigatorios>
       <Geometry>geometry</Geometry>
@@ -39,4 +39,4 @@
       </MapeamentoMetadado>
    </ListaMetadados>
    
-</ConfiguracaoBase>
+</ConfiguracaoRecurso>

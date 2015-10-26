@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ConfiguracaoBase>
+<ConfiguracaoRecurso>
    <Url>http://geoservicos.ibge.gov.br/geoserver/wms?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=CCAR:BC250_Ext_Mineral_P&amp;outputFormat=JSON</Url>
    <CamposObrigatorios>
       <Geometry>geometry</Geometry>
@@ -25,4 +25,4 @@
          <ItemFiltro>Argila</ItemFiltro>
       </Filtro>
    </ListaFiltro>
-</ConfiguracaoBase>
+</ConfiguracaoRecurso>

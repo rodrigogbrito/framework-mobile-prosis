@@ -1,4 +1,5 @@
-<ConfiguracaoBase>
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoRecurso>
 	<Url>http://dadosabertos.dataprev.gov.br/opendata/con06/formato=csv</Url>
 	<Encoding>windows-1252</Encoding>
 	<Separador>,</Separador>
@@ -31,4 +32,4 @@
 			<ItemFiltro>2000</ItemFiltro>
 		</Filtro>
 	</ListaFiltro>
- </ConfiguracaoBase>
+ </ConfiguracaoRecurso>

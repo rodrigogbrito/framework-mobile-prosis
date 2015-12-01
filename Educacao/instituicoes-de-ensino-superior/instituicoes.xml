@@ -16,12 +16,12 @@
 <Mapeamento>Sigla</Mapeamento>
 </MapeamentoMetadado>
 <MapeamentoMetadado>
-<Original>Município</Original>
+<Original>Município da IES</Original>
 <Mapeamento>Município</Mapeamento>
 </MapeamentoMetadado>
 <MapeamentoMetadado>
-<Original>Categoria</Original>
-<Mapeamento>Categoria</Mapeamento>
+<Original>DEPADM</Original>
+<Mapeamento>Categoria Administrativa</Mapeamento>
 </MapeamentoMetadado>
 <MapeamentoMetadado>
 <Original>Rede</Original>

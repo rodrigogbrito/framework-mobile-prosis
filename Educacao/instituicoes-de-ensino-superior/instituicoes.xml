@@ -1,1 +1,37 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoRecurso>
+<Url>http://repositorio.dados.gov.br/educacao/CADASTRO%20DAS%20IES_2011.csv</Url>
+<Separador>;</Separador>
+<CamposObrigatorios>
+<Titulo>NO_IES</Titulo>
+</CamposObrigatorios>
+<ListaMetadados>
+<MapeamentoMetadado>
+<Original>NO_IES</Original>
+<Mapeamento>nome_da_instituicao</Mapeamento>
+</MapeamentoMetadado>
+<MapeamentoMetadado>
+<Original>SG_IES</Original>
+<Mapeamento>Sigla</Mapeamento>
+</MapeamentoMetadado>
+<MapeamentoMetadado>
+<Original>Município</Original>
+<Mapeamento>Município</Mapeamento>
+</MapeamentoMetadado>
+<MapeamentoMetadado>
+<Original>Categoria</Original>
+<Mapeamento>Categoria</Mapeamento>
+</MapeamentoMetadado>
+<MapeamentoMetadado>
+<Original>Rede</Original>
+<Mapeamento>Rede de atendimento</Mapeamento>
+</MapeamentoMetadado>
+</ListaMetadados>
+<ListaFiltro>
+<Filtro value="Modalidade">
+<ItemFiltro>Pública</ItemFiltro>
+<ItemFiltro>Privada</ItemFiltro>
+</Filtro>
+</ListaFiltro>
+</ConfiguracaoRecurso>

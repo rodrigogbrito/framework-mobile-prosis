@@ -204,7 +204,7 @@
 		<Nome>Educação</Nome>
 		<ListaConjuntoDados>
 			<ConjuntoDados>
-				<Nome>Instituições de Ensino Superior</Nome>https://github.com/planejamentoGovBr/framework-mobile-prosis/blob/master/Educacao/instituicoes-de-ensino-superior/instituicoes.xml
+				<Nome>Instituições de Ensino Superior</Nome>
 				<Descricao>Dados cadastrais das Instituições de Ensino Superior no Brasil.</Descricao>
 				<ListaRecursos>
 					<Recurso>

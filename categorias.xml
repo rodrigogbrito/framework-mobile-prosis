@@ -199,4 +199,24 @@
 			</ConjuntoDados>
 		</ListaConjuntoDados>
 	</Categoria>
+	<!-- Essa parte foi adicionada para testar a cartilha de publicação --> 
+		<Categoria>
+		<Nome>Educação</Nome>
+		<ListaConjuntoDados>
+			<ConjuntoDados>
+				<Nome>Instituições de Ensino Superior</Nome>https://github.com/planejamentoGovBr/framework-mobile-prosis/blob/master/Educacao/instituicoes-de-ensino-superior/instituicoes.xml
+				<Descricao>Dados cadastrais das Instituições de Ensino Superior no Brasil.</Descricao>
+				<ListaRecursos>
+					<Recurso>
+						<Nome>Cadastro das instituições de ensino superior em 2011</Nome>
+						<Url>https://github.com/planejamentoGovBr/framework-mobile-prosis/blob/master/Educacao/instituicoes-de-ensino-superior/instituicoes.xml</Url>
+						<Tipo>Tabela</Tipo>
+						<Tamanho>1,0MB</Tamanho>
+						<Formato>CSV</Formato>
+					</Recurso>
+				</ListaRecursos>
+			</ConjuntoDados>
+		</ListaConjuntoDados>
+	</Categoria>
+	<!-- Acrescentado até aqui --> 
 </DadosGov>

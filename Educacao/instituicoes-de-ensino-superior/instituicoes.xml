@@ -1,7 +1,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <ConfiguracaoRecurso>
-<Url>https://drive.google.com/open?id=0BxUCcJp-zQMkMWJtdkhLSzhmSWs</Url>
+<Url>https://raw.githubusercontent.com/rodrigogbrito/framework-mobile-prosis/master/Educacao/instituicoes-de-ensino-superior/instituicao.csv</Url>
 <Separador>,</Separador>
 <CamposObrigatorios>
 <Titulo>NO_IES</Titulo>

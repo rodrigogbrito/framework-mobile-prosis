@@ -1,1 +1,48 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfiguracaoRecurso>
+  <Url>https:http://dominios.governoeletronico.gov.br/dados-abertos/Dominios_GovBR_basico.csv</Url>
+  <Separador>;</Separador>
+  <CamposObrigatorios>
+    <Titulo>dominio</Titulo>
+    </CamposObrigatorios>
+    <ListaMetadados>
+      <MapeamentoMetadado>
+        <Original>dominio</Original>
+        <Mapeamento>Domínio</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+        <Original>documento</Original>
+        <Mapeamento>Documento</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+        <Original>nome</Original>
+        <Mapeamento>Nome</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+        <Original>cidade</Original>
+        <Mapeamento>Cidade</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+        <Original>cep</Original>
+        <Mapeamento>CEP</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+        <Original>uf</Original>
+        <Mapeamento>UF</Mapeamento>
+      </MapeamentoMetadado>
+      <MapeamentoMetadado>
+        <Original>data_cadastro</Original>
+        <Mapeamento>Data do cadastro</Mapeamento>
+      </MapeamentoMetadado>
+        <MapeamentoMetadado>
+        <Original>ultima_atualizacao</Original>
+        <Mapeamento>Data da atualização</Mapeamento>
+      </MapeamentoMetadado>
+    </ListaMetadados>
+  <ListaFiltro>
+    <Filtro value="Modalidade">
+      <ItemFiltro>Pública</ItemFiltro>
+      <ItemFiltro>Privada</ItemFiltro>
+    </Filtro>
+  </ListaFiltro>
+</ConfiguracaoRecurso>
